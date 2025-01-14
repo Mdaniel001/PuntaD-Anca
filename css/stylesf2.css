@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('../imagenes/FotoPrincipal2.jpg'); /* Imagen de ejemplo */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo negro semitransparente */
+    background-blend-mode: overlay;
+    color: #d4af37; /* Dorado */    
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+    flex-direction: column;
+}
+  
+.container1 {
+    text-align: center;
+    padding: 20px;
+}
+  
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+  
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Dos columnas */
+    gap: 15px;
+    width: 500px;
+    margin: 0 auto;
+}
+  
+input, textarea {
+    padding: 10px;
+    border: 1px solid #d4af37;
+    border-radius: 5px;
+    background-color: #111;
+    color: #fff;
+    font-size: 14px;
+}
+  
+input:focus, textarea:focus {
+    outline: none;
+    border-color: #ffda79;
+}
+  
+.phone-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+  
+.phone-container .flag {
+    font-size: 20px;
+}
+  
+textarea {
+    grid-column: span 2; /* Ocupa ambas columnas */
+}
+
+button {
+    grid-column: span 2; /* Ocupa ambas columnas */
+    padding: 10px;
+    background-color: #d4af37;
+    border: none;
+    border-radius: 5px;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+}
+  
+button:hover {
+    background-color: #ffda79;
+}
+  

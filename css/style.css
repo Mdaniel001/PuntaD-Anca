@@ -1,0 +1,174 @@
+
+body {
+  
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 10px;
+  background-color: #070707; /* Fondo oscuro */
+  color: #fff; /* Texto claro */  
+  height: 100vh;  
+}
+
+.container {
+
+  background-image: url('../imagenes/FotoPrincipal.jfif'); /* Imagen de ejemplo */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.5); /* Fondo negro semitransparente */
+  background-blend-mode: overlay;
+  color: #fff;
+  padding: 40px 20px;  
+  background-color: #1a1818; /* Fondo del formulario */  
+  background-position-x: center;
+  padding: 80px;
+  border-radius: 40px;
+  box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 1200px; 
+  text-align: center; 
+  align-content: center;
+  justify-content: center;
+  
+}
+
+h1 {
+  font-size: 24px;
+  color: #d4af37; /* Dorado */
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 14px;
+  margin-bottom: 30px;
+  color: #ddd;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-content: center;
+}
+
+.form-row {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.form-group {
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  flex: 1; /* Asegura que todos los campos tengan el mismo ancho */
+
+}
+
+label {
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: #d4af37; /* Dorado */
+  text-align: left;
+    
+
+}
+
+select, input {
+  padding: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  outline: none;
+  background-color: #444; /* Fondo oscuro para los campos */
+  color: #fff;
+  align-items: center;
+}
+
+select:focus, input:focus {
+  border-color: #d4af37; /* Resalta el campo activo */
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #d4af37; /* Botón dorado */
+  color: #222; /* Texto oscuro */
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  align-self: center; /* Centra el botón */
+}
+
+button:hover {
+  background-color: #b3862d; /* Color más oscuro al pasar el mouse */
+}
+
+
+/*Pie de pagina */ 
+
+footer {
+  background-color: #0a0a0a;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-info h3 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.footer-info p {
+  margin: 5px 0 0;
+  font-size: 14px;
+  color: #aaa;
+}
+
+.footer-social {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer-social h4 {
+  margin: 0;
+  font-size: 16px;
+  color: #fff;
+}
+
+.social-icon {
+  color: #fff;
+  font-size: 20px;
+  transition: color 0.3s;
+}
+
+.social-icon:hover {
+  color: #1da1f2;
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-social {
+    margin-top: 10px;
+  }
+}
+

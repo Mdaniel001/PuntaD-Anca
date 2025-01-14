@@ -1,0 +1,72 @@
+body {
+  background-color: rgb(26, 25, 25);
+  color: #f0e68c;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #f0e68c;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 20px;
+  background-image: url('../imagenes/FotoVino.jfif'); /* Imagen de ejemplo */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.9); /* Fondo negro semitransparente */
+  background-blend-mode: overlay;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.location {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #f0e68c;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 20px;
+  background-image: url('../imagenes/Fotoprincipal4.jpg'); /* Imagen de ejemplo */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.9); /* Fondo negro semitransparente */
+  background-blend-mode: overlay;
+  
+  font-weight: bold;
+  text-decoration: none;
+}
+
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+
+
+#addToCalendar {
+  background-color: #f0e68c;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#addToCalendar:hover {
+  background-color: #d4c35b;
+}

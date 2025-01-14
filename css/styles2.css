@@ -1,0 +1,113 @@
+
+header {
+    background-color: #000000;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items:initial;
+    padding: 20px ;
+    font-family: Arial, sans-serif;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Asegura que el logo se alinee a la izquierda */
+    margin-right: auto; /* Empuja el resto del contenido hacia la derecha */
+    padding: 20px 25px ;
+}
+
+.logo img {
+    height: 81px;
+    margin-right: 10px;
+     
+}
+  
+.navigation ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 10 ;
+    margin: 20px 0;
+}
+  
+.navigation a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 14px;
+}
+  
+
+ 
+  
+.divider {
+    border: 0.5px solid #CCCCCC;
+    width: 95%;
+    margin-top: 20px;
+}
+  
+
+/*Pie de pagina */ 
+
+footer {
+  background-color: #0a0a0a;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-info h3 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.footer-info p {
+  margin: 5px 0 0;
+  font-size: 14px;
+  color: #aaa;
+}
+
+.footer-social {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer-social h4 {
+  margin: 0;
+  font-size: 16px;
+  color: #fff;
+}
+
+.social-icon {
+  color: #fff;
+  font-size: 20px;
+  transition: color 0.3s;
+}
+
+.social-icon:hover {
+  color: #1da1f2;
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-social {
+    margin-top: 10px;
+  }
+}
+
