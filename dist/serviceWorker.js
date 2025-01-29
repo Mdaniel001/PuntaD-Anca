@@ -1,6 +1,7 @@
 const CACHE_NAME = "reserva-puntadanca-v1";
 const urlsToCache = [
   "/",
+  "/manifest.json", 
   "/index.html",
   "/css/style.css",
   "/dist/formulario1.js",
