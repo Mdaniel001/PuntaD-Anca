@@ -14,26 +14,26 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0.4, 0.8);
   background-blend-mode: overlay;
   color: #fff;
   padding: 40px 20px;
   border-radius: 20px;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
   width: 100%;
-  max-width: 800px;
+  max-width: 900px;
   margin: auto;
   text-align: center;
 }
 
 h1 {
-  font-size: 28px;
+  font-size: 30px;
   color: #d4af37;
   margin-bottom: 20px;
 }
 
 p {
-  font-size: 16px;
+  font-size: 20px;
   margin-bottom: 20px;
   color: #ddd;
 }

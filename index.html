@@ -6,7 +6,19 @@
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./css/styles2.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-  <title>Reserva tu lugar</title>
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#4CAF50">
+  <meta name="MobileOptimized" content="width"/>
+  <meta name="HandheldFriendly" content="true"/>
+    <!--Metaetiquetas Mac/apple-->
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+  <link rel="apple-touch-icon" sizes="192x192" href="/imagenes/icon-192x192.png"  />
+  <link rel="apple-touch-startup-image"href="./imagenes/logo.png" />
+
+
+
+  <title>Reserva tu Mesa</title>
 </head>
 <body>
   <header>
@@ -25,7 +37,7 @@
   </header>  
 
   <div class="container">
-    <h1>Reserva tu lugar</h1>
+    <h1>Reserva tu Mesa</h1>
     <p>Selecciona los datos de tu reserva e intentaremos conseguir los mejores asientos para ti.</p>
     <form id="form1">
         <div class="form-row">
@@ -61,8 +73,7 @@
                     <option value="15:00">15:00</option>
                     <option value="15:30">15:30</option>
                     <option value="16:00">16:00</option>
-                    <option value="16:30">16:30</option>
-                    <option value="17:00">17:00</option>
+                    <option value="16:30">16:30</option>                   
                 </select>
             </div>
         </div>
@@ -94,8 +105,8 @@
   </div>
 </footer>
 <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-
-  <script src="dist/formulario1.js"></script>
+<script src="/workers-register.js"></script>
+<script src="dist/formulario1.js"></script>
  
 </body>
 </html>
