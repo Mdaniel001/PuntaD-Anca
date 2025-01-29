@@ -1,6 +1,6 @@
 {
     "name": "Punta D' ANCA",
-    "short_name": "reservas",
+    "short_name": "Reservas",
     "description": "Sistema de reservas progresivo para Punta de Anca.",
     "start_url": "/",
     "display": "standalone",
